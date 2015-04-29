@@ -1,0 +1,7 @@
+---
+# Playbook for provising nodejs / npm
+
+- hosts: all
+  sudo: yes
+  roles:
+    - nodejs
